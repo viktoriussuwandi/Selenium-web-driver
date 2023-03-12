@@ -8,15 +8,15 @@
 
 ### Description :
 #### wikipedia.org
-     1. Extract the Upcoming event data from the `wikipedia.org` website.
-     2. Scrape and get all languages available.
-     3. scrape search bar element.
+1. Extract the Upcoming event data from the `wikipedia.org` website.
+2. Scrape and get all languages available.
+3. scrape search bar element.
 
 #### python.org
-     1. Extract the Upcoming event data from the `python.org` website.
-     2. Use `Selenium` to scrape all upcoming event `dates` and event `names`.
-     3. Store `dates` and `names` into a nested `python dictionary` to the `console`.
-     4. The event data from `python.org` should be stored under the keys `time` and `name`.
+1. Extract the Upcoming event data from the `python.org` website.
+2. Use `Selenium` to scrape all upcoming event `dates` and event `names`.
+3. Store `dates` and `names` into a nested `python dictionary` to the `console`.
+4. The event data from `python.org` should be stored under the keys `time` and `name`.
 
 ### Setup and Configuration :
     1. Install Selenium using shell terminal, type `pip install selenium`.
