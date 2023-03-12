@@ -4,19 +4,20 @@
 ### Technology and Features :
     * using Selenium packages
     * using no additional driver file
-    * Tested on several URL websites
+    * Tested on some URL websites
 
 ### Description :
-#### wikipedia.org
-1. Extract the Upcoming event data from the `wikipedia.org` website.
-2. Scrape and get all languages available.
-3. scrape search bar element.
-
 #### python.org
 1. Extract the Upcoming event data from the `python.org` website.
 2. Use `Selenium` to scrape all upcoming event `dates` and event `names`.
 3. Store `dates` and `names` into a nested `python dictionary` to the `console`.
 4. The event data from `python.org` should be stored under the keys `time` and `name`.
+
+#### wikipedia.org
+1. Scrape `tag name` of search bar element using Selenium `find single element` method.
+2. Extract the articles amount of each language available from the `wikipedia.org` website.
+3. Find and get all languages available and articles'samount on each language using `find multiple elements` method.
+4. Create `articles` dictionary with key `language` and key `articles` for `languages` and `amount`.
 
 ### Setup and Configuration :
     1. Install Selenium using shell terminal, type `pip install selenium`.
