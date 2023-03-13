@@ -14,10 +14,15 @@
 4. The event data from `python.org` should be stored under the keys `time` and `name`.
 
 #### wikipedia.org
-1. Scrape `tag name` of search bar element using Selenium `find single element` method.
-2. Extract the articles amount of each language available from the `wikipedia.org` website.
-3. Find and get all languages available and articles'samount on each language using `find multiple elements` method.
-4. Create `articles` dictionary with key `language` and key `articles` for `languages` and `amount`.
+##### Extract Website Data
+1. Extract the articles amount of each language available from the `wikipedia.org` website.
+2. Find and get all languages available and articles'samount on each language using `find multiple elements` method.
+3. Create `articles` dictionary with key `language` and key `articles` for `languages` and `amount`.
+
+##### Search Some Information
+1. Search information about python by typing python on `search bar`.
+2. Select english as output language.
+3. Print all the headlines references.
 
 ### Setup and Configuration :
     1. Install Selenium using shell terminal, type `pip install selenium`.
@@ -37,4 +42,5 @@
   ![output](img/output.jpg)
 
 #### Project Result
-
+![complete1](img/complete1.jpg)
+![complete2](img/complete2.jpg)
