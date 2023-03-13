@@ -1,5 +1,5 @@
 import json
-import html
+from unidecode import unidecode
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
@@ -38,12 +38,12 @@ def wikipedia_org() :
   language  = [i.text for i in language_el ]
   amount    = [i.text for i in amount_el ]
   articles  = [ 
-               {'language' : language[i], 'articles' : amount[i]} 
+               {'language' : unidecode(language[i]), 'articles' : unidecode(amount[i])}
                for i in range(len(language)) 
              ]
   print(json.dumps(articles, indent = 4))
   print(f'Languages : {language}')
-  # print(f'Article amount : {amount}')
+  print(f'Article amount : {amount}')
   
   driver.quit()
   
